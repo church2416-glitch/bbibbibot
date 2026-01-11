@@ -320,4 +320,4 @@ async def on_ready():
         scheduler.start()
     print(f"Logged in as {bot.user}")
 
-client.run(os.environ['token'])
+bot.run(os.environ['token'])
